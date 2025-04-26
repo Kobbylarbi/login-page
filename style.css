@@ -37,6 +37,7 @@ body {
     padding: 12px auto;
     margin: 10px auto;
     border: none;
+    outline: none;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.9); /* A slightly transparent white background for the input fields */
     font-size: 16px;
