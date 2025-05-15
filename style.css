@@ -34,11 +34,11 @@ body {
     display: block;
     width: 100%;
     max-width: 300%;
-    padding: 12px auto;
+    padding: 15px auto;
     margin: 10px auto;
     border: none;
     outline: none;
-    border-radius: 8px;
+    border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.9); /* A slightly transparent white background for the input fields */
     font-size: 16px;
     box-shadow: 0 2px 8px rgba(10, 0, 0, 0.1);
@@ -76,14 +76,15 @@ body {
 }
 
 .content a {
+  display: inline-block;
   color: #3d9df7; /* light blue for contrast */
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .content a:hover {
-  color: #ffffff;
   text-decoration: underline;
+  transform: translateY(-2px);
 }
 
